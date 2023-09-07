@@ -14,3 +14,7 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+//REPL:READ EVLUATE PRINT LOOP
+// .exit to exit node terminal
+//.node to strart node termail
+//_ means previous value in node
