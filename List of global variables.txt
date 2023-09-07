@@ -1,7 +1,5 @@
 //enter 2 times tabs and you will see list of global variables in REPL.
 
-
-
 AbortController                   AbortSignal                       AggregateError
 Array                             ArrayBuffer                       Atomics
 BigInt                            BigInt64Array                     BigUint64Array
@@ -59,3 +57,45 @@ vm                                worker_threads                    zlib
 __proto__                         hasOwnProperty                    isPrototypeOf
 propertyIsEnumerable              toLocaleString                    toString
 valueOf
+
+https://nodejs.org/api/modules.html
+builin modules of node JS
+Modules: CommonJS modules
+Enabling
+Accessing the main module
+Package manager tips
+The .mjs extension
+All together
+Caching
+Module caching caveats
+Core modules
+Cycles
+File modules
+Folders as modules
+Loading from node_modules folders
+Loading from the global folders
+The module wrapper
+The module scope
+__dirname
+__filename
+exports
+module
+require(id)
+require.cache
+require.extensions
+require.main
+require.resolve(request[, options])
+require.resolve.paths(request)
+The module object
+module.children
+module.exports
+exports shortcut
+module.filename
+module.id
+module.isPreloading
+module.loaded
+module.parent
+module.path
+module.paths
+module.require(id)
+The Module object
